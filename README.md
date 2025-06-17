@@ -1,7 +1,10 @@
 # SmartRoute-NED 🚦
 **Finding the Best Way to NED University using Classic Pathfinding Algorithms**
+
 **Course:** CT-363 Design and Analysis of Algorithms  
+
 **Department:** Computer Science & Information Technology, NED University  
+
 **Student:** Afifa Siddique  
 
 ---
