@@ -112,12 +112,4 @@ Time (min) = (Distance / 30) * 60 * (1 + Congestion)
 ---
 
 
-## Instructor  
-**Dr. Usman Amjad**  
-Department of Computer Science & IT  
-Course: *Design & Analysis of Algorithm (CT-363)*  
-NED University of Engineering & Technology
-
----
-
 
