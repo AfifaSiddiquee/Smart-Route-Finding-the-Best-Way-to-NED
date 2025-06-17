@@ -3,13 +3,13 @@
 
 ---
 
-## 📚 Overview
+##  Overview
 
 In a bustling city like Karachi, selecting the most effective route for daily commutes is a common challenge. **SmartRoute-NED** is a congestion-aware routing system designed to guide commuters from different regions of Karachi to **NED University of Engineering & Technology** through the shortest and most optimal paths. This system uses graph theory and classical pathfinding algorithms such as **BFS, DFS, Dijkstra**, and **A\*** to model real-world routes, simulate traffic congestion, and recommend alternative paths if needed.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Most navigation systems fail to dynamically adapt to fluctuating traffic conditions. This project addresses that gap by:
 - Representing Karachi’s roads as a weighted graph with congestion simulation.
@@ -18,7 +18,7 @@ Most navigation systems fail to dynamically adapt to fluctuating traffic conditi
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Simulate Karachi's road network using a weighted undirected graph.
 - Compare the performance of **BFS**, **DFS**, **Dijkstra**, and **A\*** algorithms.
@@ -27,7 +27,7 @@ Most navigation systems fail to dynamically adapt to fluctuating traffic conditi
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 | Technology     | Purpose                                       |
 |----------------|-----------------------------------------------|
@@ -39,7 +39,7 @@ Most navigation systems fail to dynamically adapt to fluctuating traffic conditi
 
 ---
 
-## 🗺️ Input Details
+##  Input Details
 
 - **Nodes**: Locations in Karachi (e.g., North Nazimabad, Gulshan-e-Iqbal)
 - **Edges**: Roads with:
@@ -52,7 +52,7 @@ Time (min) = (Distance / 30) * 60 * (1 + Congestion)
 
 ---
 
-## ⚙️ Algorithms Implemented
+##  Algorithms Implemented
 
 ### 1. Breadth-First Search (BFS)
 - Explores nearest nodes first.
@@ -62,18 +62,18 @@ Time (min) = (Distance / 30) * 60 * (1 + Congestion)
 - Explores as deep as possible before backtracking.
 - Ignores edge weights — may find inefficient paths.
 
-### 3. Dijkstra’s Algorithm ✅
+### 3. Dijkstra’s Algorithm 
 - Considers real-time congestion and finds the optimal path.
 - Guaranteed shortest path in a weighted graph.
 
-### 4. A* Algorithm ✅
+### 4. A* Algorithm 
 - Similar to Dijkstra but incorporates a heuristic.
 - Currently heuristic = 0 → behaves like Dijkstra.
 - Can be extended for faster performance with real heuristics.
 
 ---
 
-## 📈 Key Features
+##  Key Features
 
 - **Congestion Simulation:** Randomly updates congestion values to reflect changing traffic.
 - **Alternate Path Suggestion:** Automatically switches to a congestion-free route when needed.
@@ -82,7 +82,7 @@ Time (min) = (Distance / 30) * 60 * (1 + Congestion)
 
 ---
 
-## 📊 Sample Results
+##  Sample Results
 
 | Source Location   | Algorithm | Travel Time | Alternate Time (if congested) |
 |-------------------|-----------|-------------|-------------------------------|
@@ -101,28 +101,18 @@ Time (min) = (Distance / 30) * 60 * (1 + Congestion)
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-- 🌐 Integrate **real-time traffic APIs** (Google Maps, Mapbox).
-- 📱 Build a **mobile-friendly web app** using Flask or React.
-- 🧠 Add **geographical heuristics** (e.g., Haversine formula for A\*).
-- 🎯 User preferences: Shortest route vs. Least congestion vs. Fastest time.
-- 🏙️ Expand to more locations or cities.
-
----
-
-## 👨‍👩‍👧‍👦 Project Contributors
-
-| Name             | Roll No   |
-|------------------|-----------|
-| Maham Tahir      | DT-001    |
-| Afifa Siddiqui   | DT-003    |
-| Ashna Shaikh     | DT-019    |
-| Sabrina Shahzad  | DT-026    |
+-  Integrate **real-time traffic APIs** (Google Maps, Mapbox).
+-  Build a **mobile-friendly web app** using Flask or React.
+-  Add **geographical heuristics** (e.g., Haversine formula for A\*).
+-  User preferences: Shortest route vs. Least congestion vs. Fastest time.
+-  Expand to more locations or cities.
 
 ---
 
-## 🧑‍🏫 Instructor  
+
+## Instructor  
 **Dr. Usman Amjad**  
 Department of Computer Science & IT  
 Course: *Design & Analysis of Algorithm (CT-363)*  
@@ -130,5 +120,4 @@ NED University of Engineering & Technology
 
 ---
 
-## 📁 Folder Structure (Suggested)
 
